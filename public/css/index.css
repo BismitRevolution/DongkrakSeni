@@ -5,3 +5,18 @@
 .fp-controlArrow {
     opacity: 0;
 }
+
+.fp-slidesNav {
+    text-align: center;
+}
+
+.fp-slidesNav li:nth-child(1) span {
+    background-color: var(--color-dark) !important;
+}
+.fp-slidesNav li:nth-child(2) span {
+    background-color: var(--color-primary) !important;
+}
+
+.fp-slidesNav li:nth-child(3) span {
+    background-color: var(--color-light) !important;
+}
