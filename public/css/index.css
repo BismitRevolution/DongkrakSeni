@@ -1,22 +1,134 @@
-.section {
-    height: 100vh;
+#fullpage .title {
+    font-family: "Tryvesterbro-Extrabold";
 }
 
-.fp-controlArrow {
-    opacity: 0;
+#fullpage .subtitle {
+    font-family: "Proxima-Regular";
 }
 
-.fp-slidesNav {
-    text-align: center;
+#bazaar .active {
+    color: rgb(var(--color-yellow-rgb)) !important;
 }
 
-.fp-slidesNav li:nth-child(1) span {
-    background-color: var(--color-dark) !important;
-}
-.fp-slidesNav li:nth-child(2) span {
-    background-color: var(--color-primary) !important;
+#exhibition .active {
+    color: rgb(var(--color-orange-rgb)) !important;
 }
 
-.fp-slidesNav li:nth-child(3) span {
-    background-color: var(--color-light) !important;
+#music .active {
+    color: rgb(var(--color-dark-purple-rgb)) !important;
+}
+
+#home img.title {
+    max-width: 60%;
+}
+
+#home .subtitle {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#community .title {
+    font-size: 1.1rem;
+}
+
+#community .subtitle {
+    padding: 0px;
+    margin-top: -10px;
+    font-size: 0.9rem;
+}
+
+#lineup img.photo {
+    max-width: 55%;
+}
+
+#lineup .title {
+    font-size: 4.6rem;
+}
+
+#lineup .subtitle {
+    font-family: "Proxima-Bold";
+    font-size: 1.3rem;
+}
+
+#lineup p.special {
+    margin-top: -35px;
+    max-width: 125px;
+    text-align: right;
+}
+
+#ticket .title {
+    font-family: "Proxima-Black";
+    font-size: 4.8rem;
+}
+
+#ticket .subtitle {
+    font-family: "Proxima-Black";
+    font-size: 1.1rem;
+}
+
+#ticket input.subtitle {
+    border-radius: 35px;
+}
+
+.super {
+    position: fixed;
+    z-index: 1000;
+}
+
+.special {
+    position: absolute;
+}
+
+.super-top {
+    top: 15vw;
+}
+
+.super-middle {
+    top: calc(50vh - (60px / 2));
+}
+
+.super-bottom {
+    bottom: 15vw;
+}
+
+.super-narrow-top {
+    top: 5vw;
+}
+
+.super-narrow-bottom {
+    bottom: 5vw;
+}
+
+.special-left {
+    left: 15vw;
+}
+
+.special-right {
+    right: 15vw;
+}
+
+.special-narrow-left {
+    left: 5vw;
+}
+
+.special-narrow-right {
+    right: 5vw;
+}
+
+@media screen and (max-width: 576px) {
+    .special-left {
+        left: 5vw;
+    }
+
+    .special-right {
+        right: 5vw;
+    }
+
+    .special-narrow-left {
+        left: 5vw;
+    }
+
+    .special-narrow-right {
+        right: 5vw;
+    }
 }

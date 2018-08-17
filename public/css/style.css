@@ -22,16 +22,6 @@
     width: 100%;
 }
 
-.title {
-    font-family: "Aller Bold";
-    font-size: 4rem;
-}
-
-.subtitle {
-    font-family: "Aller Regular";
-    font-size: 1.6rem;
-}
-
 .panel {
     background-color: white;
     border-radius: 10px;

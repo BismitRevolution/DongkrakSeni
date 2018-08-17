@@ -3,13 +3,37 @@
     --color-primary-rgb: 158, 135, 206;
     --color-light: #F2F2F2;
     --color-light-rgb: 242, 242, 242;
-    --color-dark: #333333;
-    --color-dark-rgb: 51, 51, 51;
+    --color-dark: #212121;
+    --color-dark-rgb: 33, 33, 33;
+
+    --color-light-purple-rgb: 203, 150, 180;
+    --color-dark-purple-rgb: 181, 50, 116;
+    --color-blue-rgb: 125, 160, 198;
+    --color-dark-blue-rgb: 37, 76, 91;
+    --color-orange-rgb: 224, 107, 53;
+    --color-yellow-rgb: 245, 198, 92;
+
+    --color-custom-rgb: 85, 92, 136;
 }
 
 @font-face {
-    font-family: "Font-Regular";
-    src: url('/fonts/Font-Regular.ttf');
+    font-family: "Proxima-Regular";
+    src: url('/fonts/proxima/MARK SIMONSON - PROXIMA NOVA REGULAR.OTF');
+}
+
+@font-face {
+    font-family: "Proxima-Bold";
+    src: url('/fonts/proxima/MARK SIMONSON - PROXIMA NOVA BOLD.OTF');
+}
+
+@font-face {
+    font-family: "Proxima-Black";
+    src: url('/fonts/proxima/MARK SIMONSON - PROXIMA NOVA BLACK.OTF');
+}
+
+@font-face {
+    font-family: "Tryvesterbro-Extrabold";
+    src: url('/fonts/tryvesterbro/TRYVESTERBRO-EXTRABOLD.OTF');
 }
 
 .bg-primary {
@@ -24,12 +48,44 @@
     background-color: var(--color-dark) !important;
 }
 
+.bg-black {
+    background-color: black !important;
+}
+
 .bg-white {
     background-color: white !important;
 }
 
 .bg-transparent {
     background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.bg-light-purple {
+    background-color: rgb(var(--color-light-purple-rgb)) !important;
+}
+
+.bg-dark-purple {
+    background-color: rgb(var(--color-dark-purple-rgb)) !important;
+}
+
+.bg-blue {
+    background-color: rgb(var(--color-blue-rgb)) !important;
+}
+
+.bg-dark-blue {
+    background-color: rgb(var(--color-dark-blue-rgb)) !important;
+}
+
+.bg-orange {
+    background-color: rgb(var(--color-orange-rgb)) !important;
+}
+
+.bg-yellow {
+    background-color: rgb(var(--color-yellow-rgb)) !important;
+}
+
+.bg-custom {
+    background-color: rgb(var(--color-custom-rgb)) !important;
 }
 
 .primary {
@@ -44,12 +100,44 @@
     color: var(--color-dark) !important;
 }
 
+.black {
+    color: black !important;
+}
+
 .white {
     color: white !important;
 }
 
 .transparent {
     color: rgba(255, 255, 255, 0) !important;
+}
+
+.light-purple {
+    color: rgb(var(--color-light-purple-rgb)) !important;
+}
+
+.dark-purple {
+    color: rgb(var(--color-dark-purple-rgb)) !important;
+}
+
+.blue {
+    color: rgb(var(--color-blue-rgb)) !important;
+}
+
+.dark-blue {
+    color: rgb(var(--color-dark-blue-rgb)) !important;
+}
+
+.orange {
+    color: rgb(var(--color-orange-rgb)) !important;
+}
+
+.yellow {
+    color: rgb(var(--color-yellow-rgb)) !important;
+}
+
+.custom {
+    color: rgb(var(--color-custom-rgb)) !important;
 }
 
 .row {
@@ -99,8 +187,18 @@
     margin-right: 15vw;
 }
 
+.container-narrow {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
 @media screen and (max-width: 576px) {
     .container {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .container-narrow {
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -113,7 +211,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, p {
-    font-family: "Aller Regular";
+    font-family: "Proxima-Regular";
 }
 
 h1 {
