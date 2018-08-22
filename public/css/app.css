@@ -175,6 +175,7 @@
 }
 
 .bold {
+    font-style: bold;
     font-weight: bold;
 }
 
@@ -247,4 +248,23 @@ p {
 label {
     font-size: 1.1rem;
     line-height: 2.6rem;
+}
+
+
+@media (max-width:700px) {
+    h5 {
+    font-size: 0.9em;
+  }
+    p {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width:400px) {
+    h5 {
+    font-size: 0.8em;
+  }
+    p {
+    font-size: 0.7em;
+  }
 }

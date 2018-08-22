@@ -2,11 +2,11 @@
     <img src="{{ asset('img/dongkrak_logo.png') }}" alt="menu">
 </div>
 
-<div id="left-blob" class="super super-middle special-narrow-left">
+<div id="left-blob" class="super super-middle special-narrow-left nav-b">
     <img src="{{ asset('img/blob_purple.png') }}" alt="menu">
 </div>
 
-<div id="right-blob" class="super super-middle special-narrow-right">
+<div id="right-blob" class="super super-middle special-narrow-right nav-b">
     <img src="{{ asset('img/blob_purple.png') }}" alt="menu">
 </div>
 
