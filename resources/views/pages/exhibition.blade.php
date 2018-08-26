@@ -14,7 +14,7 @@
             <h5 class="title active">Exhibition</h5>
             <p class="subtitle bold active">From many art enthusiasts</p>
             <h5 class="title">Music</h5>
-            <p class="subtitle bold">From various game</p>
+            <p class="subtitle bold">From various genre</p>
         </div>
     </div>
 </div>

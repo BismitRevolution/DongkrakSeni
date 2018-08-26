@@ -5,12 +5,22 @@
 .nav-b {
 }
 
+.m-r {
+  display: none;
+}
+
 @media (max-width:700px) {
   #left-blob img, #right-blob img {
     display: none;
   }
   #logo img, #menu img {
     max-width: 40px;
+  }
+  .m-r {
+    display: block;
+  }
+  .m-l {
+    display: none;
   }
 }
 

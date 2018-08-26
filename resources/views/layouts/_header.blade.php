@@ -10,6 +10,10 @@
     <img src="{{ asset('img/blob_purple.png') }}" alt="menu">
 </div>
 
-<div id="menu" class="super super-narrow-bottom special-narrow-left">
+<div id="menu" class="super super-narrow-bottom special-narrow-left m-l">
+    <img src="{{ asset('img/menu.png') }}" alt="menu">
+</div>
+
+<div id="menu" class="super super-narrow-top special-narrow-right m-r">
     <img src="{{ asset('img/menu.png') }}" alt="menu">
 </div>
