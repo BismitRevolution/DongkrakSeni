@@ -16,6 +16,7 @@
         @include('pages.exhibition')
         @include('pages.music')
         @include('pages.lineup')
+        @include('pages.schedule')
         @include('pages.ticket')
     </div>
 </div>
