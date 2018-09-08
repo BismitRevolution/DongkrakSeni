@@ -10,6 +10,10 @@
     color: rgb(var(--color-yellow-rgb)) !important;
 }
 
+#community .active {
+    color: rgb(var(--color-blue-rgb)) !important;
+}
+
 #exhibition .active {
     color: rgb(var(--color-orange-rgb)) !important;
 }
@@ -76,6 +80,12 @@
 
 #ticket input.subtitle {
     border-radius: 35px;
+}
+
+@media (max-width: 700px) {
+  #schedule .subtitle {
+    font-size: 2.2rem;
+  }
 }
 
 .super {

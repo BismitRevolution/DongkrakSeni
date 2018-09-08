@@ -1,4 +1,4 @@
-<div id="community" class="slide bg-dark">
+<div id="community" class="slide bg-dark" style="background-image: url('img/bg_community.jpg'); background-size:cover; background-position:center;">
     <div class="grid-x container">
         <h5 class="cell title" style="margin-bottom: 25px;">6th Annual Creative Industries Event</h5>
         <div class="cell medium-7 grid-x">
@@ -9,7 +9,7 @@
         </div>
         <div class="cell medium-5">
             <h5 class="title active">Community</h5>
-            <p class="subtitle bold">From various circles</p>
+            <p class="subtitle bold active">From various circles</p>
             <h5 class="title">Bazaar</h5>
             <p class="subtitle bold">From miscellanous tenants</p>
             <h5 class="title">Exhibition</h5>
