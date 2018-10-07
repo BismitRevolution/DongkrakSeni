@@ -10,7 +10,9 @@
                 <img class="photo" src="{{ asset('img/vira.png') }}" alt="vira">
                 <p class="subtitle black">Vira Talisa</p>
             </div>
+              <div class="cell small-12 text-center">
+                <p class="subtitle">And more to be announced!</p>
+              </div>
         </div>
     </div>
-    <p class="special special-right">And more to be announced!</p>
 </div>

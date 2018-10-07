@@ -11,7 +11,7 @@
 }
 
 .fp-slidesNav li:nth-child(1) span {
-    background-color: rgb(var(--color-dark-purple-rgb)) !important;
+    background-color: rgb(var(--color-light-purple-rgb)) !important;
 }
 
 .fp-slidesNav li:nth-child(2) span {
@@ -19,19 +19,23 @@
 }
 
 .fp-slidesNav li:nth-child(3) span {
-    background-color: rgb(var(--color-orange-rgb)) !important;
+    background-color: rgb(var(--color-yellow-rgb)) !important;
 }
 
 .fp-slidesNav li:nth-child(4) span {
-    background-color: rgb(var(--color-dark-blue-rgb)) !important;
+    background-color: rgb(var(--color-orange-rgb)) !important;
 }
 
 .fp-slidesNav li:nth-child(5) span {
-    background-color: rgb(var(--color-light-purple-rgb)) !important;
+    background-color: rgb(var(--color-dark-purple-rgb)) !important;
 }
 
 .fp-slidesNav li:nth-child(6) span {
     background-color: rgb(var(--color-yellow-rgb)) !important;
+}
+
+.fp-slidesNav li:nth-child(7) span {
+    background-color: rgb(var(--color-random-rgb)) !important;
 }
 
 .slide {

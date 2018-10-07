@@ -12,6 +12,8 @@
     --color-dark-blue-rgb: 37, 76, 91;
     --color-orange-rgb: 224, 107, 53;
     --color-yellow-rgb: 245, 198, 92;
+    --color-dark-green-rgb: 29, 59, 72;
+    --color-random-rgb: 150, 189, 90;
 
     --color-custom-rgb: 85, 92, 136;
 }
@@ -136,6 +138,10 @@
     color: rgb(var(--color-yellow-rgb)) !important;
 }
 
+.dark-green {
+    color: rgb(var(--color-dark-green-rgb)) !important;
+}
+
 .custom {
     color: rgb(var(--color-custom-rgb)) !important;
 }
@@ -175,6 +181,7 @@
 }
 
 .bold {
+    font-style: bold;
     font-weight: bold;
 }
 
@@ -247,4 +254,23 @@ p {
 label {
     font-size: 1.1rem;
     line-height: 2.6rem;
+}
+
+
+@media (max-width:700px) {
+    h5 {
+    font-size: 0.9em;
+  }
+    p {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width:400px) {
+    h5 {
+    font-size: 0.8em;
+  }
+    p {
+    font-size: 0.7em;
+  }
 }

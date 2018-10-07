@@ -5,6 +5,8 @@ $(document).ready(function() {
         licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
         autoScrolling: true,
         slidesNavigation: true,
-        // scrollHorizontally:  true,
+        continuousHorizontal:true,
+        autoScrolling:true,
+        scrollHorizontally:  true,
     });
 });

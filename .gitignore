@@ -21,3 +21,6 @@ Homestead.json
 
 # Ubuntu 18.04 Temporary
 *.fuse*
+
+#add DS_Store(Mac)
+.DS_Store
