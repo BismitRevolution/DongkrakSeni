@@ -25,10 +25,12 @@
   
     <!-- Overlay content -->
     <div class="overlay-content">
-      <a href="javascript:void(0)" onclick="fullpage_api.moveTo('ticket', 5);" class="subtitle">Community</a>
-      <a href="javascript:void(0)" onclick="fullpage_api.moveTo(2);" class="subtitle" >Bazaar</a>
-      <a onclick="fullpage_api.moveTo(3)" class="subtitle" href="javascript:void(0)">Exhibition</a>
-      <a onclick="fullpage_api.moveTo(4)" class="subtitle" href="javascript:void(0)">Music</a>
+      <a href="#community" onclick="window.location.href='#community';" class="subtitle">Community</a>
+      <a href="#bazaar" onclick="window.location.href='#bazaar';" class="subtitle" >Bazaar</a>
+      <a onclick="window.location.href='#exhibition';" class="subtitle" href="javascript:void(0)">Exhibition</a>
+      <a onclick="window.location.href='#music';" class="subtitle" href="javascript:void(0)">Music</a>
+      <a onclick="window.location.href='#ticket';" class="subtitle" href="javascript:void(0)">Ticket</a>
+      <a onclick="window.location.href='#lineup';" class="subtitle" href="javascript:void(0)">Line Up</a>
     </div>
   
   </div>

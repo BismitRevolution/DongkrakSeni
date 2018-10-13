@@ -1,4 +1,4 @@
-<div id="music" class="slide bg-dark" style="background-image: url('img/bg_music.png'); background-size: cover; background-position:center;">
+<div id="music" class="slide bg-dark" data-anchor="music" style="background-image: url('img/bg_music.png'); background-size: cover; background-position:center;">
     <div class="grid-x container">
         <h5 class="cell title" style="margin-bottom: 25px;">6th Annual Creative Industries Event</h5>
         <div class="cell medium-7 grid-x">
