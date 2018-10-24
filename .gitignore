@@ -24,3 +24,4 @@ Homestead.json
 
 #add DS_Store(Mac)
 .DS_Store
+*/.DS_Store

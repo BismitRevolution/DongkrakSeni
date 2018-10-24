@@ -1,4 +1,4 @@
-<div id="lineup" class="slide bg-dark" style="background-image: url('img/bg_lineup.png');">
+<div id="lineup" class="slide bg-dark" data-anchor="lineup" style="background-image: url('img/bg_lineup.png');">
     <div class="grid-x align-middle align-center container">
         <h1 class="cell title black" style="margin-bottom: 25px;">Line Up</h1>
         <div class="grid-x align-middle align-center text-center">

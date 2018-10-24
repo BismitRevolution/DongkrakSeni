@@ -1,4 +1,4 @@
-<div id="schedule" class="slide bg-dark" style="background-image: url('img/bg_venue.png'); background-size: cover; background-position:center;">
+<div id="schedule" class="slide bg-dark" data-anchor="schedule" style="background-image: url('img/bg_venue.png'); background-size: cover; background-position:center;">
     <div class="grid-x align-middle align-center container text-center">
         <!-- <h1>DONGKRAK SENI UI</h1> -->
         <div class="small-12 small-only-text-center medium-text-left">

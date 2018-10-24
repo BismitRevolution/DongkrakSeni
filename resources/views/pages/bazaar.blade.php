@@ -1,4 +1,4 @@
-<div id="bazaar" class="slide bg-dark" style="background-image: url('img/bg_bazaar.png');">
+<div id="bazaar" class="slide bg-dark" data-anchor="bazaar" style="background-image: url('img/bg_bazaar.png');">
     <div class="grid-x container">
         <h5 class="cell title">6th Annual Creative Industries Event</h5>
         <div class="cell medium-7 grid-x">
